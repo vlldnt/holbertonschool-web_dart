@@ -24,7 +24,7 @@ int whoWins(Map<String, int> teamA, Map<String, int> teamB) {
     }
   });
 
-  return resultB == resultB
+  return resultA == resultB
       ? 0
       : resultA > resultB
       ? 1
