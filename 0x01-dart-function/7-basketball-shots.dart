@@ -2,7 +2,7 @@ int whoWins(Map<String, int> teamA, Map<String, int> teamB) {
   int resultA = 0;
   int resultB = 0;
   teamA.forEach((String key, int value) {
-    if (key == "Free Throw") {
+    if (key == "Free throws") {
       resultA += value;
     }
     if (key == "2 pointers") {
@@ -13,7 +13,7 @@ int whoWins(Map<String, int> teamA, Map<String, int> teamB) {
     }
   });
   teamB.forEach((String key, int value) {
-    if (key == "Free Throw") {
+    if (key == "Free throws") {
       resultB += value;
     }
     if (key == "2 pointers") {
