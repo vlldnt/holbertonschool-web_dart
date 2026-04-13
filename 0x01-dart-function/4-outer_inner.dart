@@ -3,7 +3,7 @@ void outer(String name, String id) {
   String formattedName = "${stringName[1][0]}.${stringName[0]}";
   
   String inner() {
-    return "Hello Agent $formattedName, your ID is $id";
+    return "Hello Agent $formattedName your id is $id";
   }
 
   print(inner());
